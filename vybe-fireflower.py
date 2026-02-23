@@ -65,7 +65,7 @@ for link in links:
     except Exception as e:
         print("Error:", link, e)
 
-with open("fireflower_menu.json", "w") as f:
+with open("menu.json", "w") as f:
     json.dump(all_products, f, indent=2)
 
 print("Done. Saved to fireflower_menu.json")
